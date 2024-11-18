@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    padding: 5rem 1rem;
+    display: block;
+}
+
+.container{
+    display: block;
+    margin-inline: auto;
+    max-width: 375px;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    box-shadow: 10px 10px 0px black;
+}
+
+.container :first-child img{
+    /*imagem principal*/
+    width: 100%;
+    border-radius: 1rem;
+    
+}
+
+.container h2{
+    /*learning*/
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 2px 8px;
+    margin: 1rem 0 1rem;
+
+}
+
+.container .date{
+    /*Data de publicação*/
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 15px;
+    color: hsl(0, 0%, 7%);
+
+
+}
+
+.container h1{
+    /*HTML & CSS foundations*/
+    font-size: 20px;
+    text-align: Left;
+    color: hsl(0, 0%, 7%);
+    font-weight: 900;
+}
+
+.container .information{
+    /*Informações*/
+    font-size: 1rem;
+    text-align: Left;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+}
+
+
+.container .avatar{
+    /*Nome - Greg*/
+    display:flex;
+    align-items: center;
+    gap: 0.650rem;
+    font-size: 16px;
+}
+
+.container .avatar img{
+    width: 40px;
+}

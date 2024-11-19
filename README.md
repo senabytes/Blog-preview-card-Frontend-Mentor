@@ -6,6 +6,6 @@ Neste segudo desafio do Frontend Mentor, criei um card de prévia de um blog!
 ![image](https://github.com/user-attachments/assets/d4a7b187-134e-47b5-9f56-1565ab5f98df)
 
 
-🚀 Linguagens Praticadas nesse desafio:
-HTML
-CSS
+# 🚀 Linguagens Praticadas nesse desafio:
+- HTML
+- CSS
